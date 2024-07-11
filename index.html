@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>조유정 (Cho Yu-jeong)</title>
+  <link rel="stylesheet" href="style/reset.css" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon.png" />
+</head>
+
+<body>
+  <main id="app">
+    <section class="section-intro">
+      <header id="header">
+        <h1 class="txt-invisible">Portfolio</h1>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#about" class="list-link">About</a></li>
+            <li><a href="#project" class="list-link">Project</a></li>
+            <li><a href="#contact" class="list-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="bar-bg">
+          <span class="bar-ing"></span>
+        </div>
+      </header>
+
+      <div class="cont-intro">
+        <a name="info"></a>
+        <img src="src/img/profile.png" alt="프로필 이미지" />
+        <div>
+          <p class="txt-title"></p>
+          <a href="#about" class="btn-more">More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about">
+      <a name="about"></a>
+      <h2>About.</h2>
+      <div class="cont-about">
+        <div class="slide-container">
+          <div class="slide-album">
+            <div class="slide-images">
+              <img src="src/img/img-me-1.jpg" alt="내 사진" />
+              <img src="src/img/img-me-2.jpg" alt="내 사진" />
+              <img src="src/img/img-me-3.jpg" alt="내 사진" />
+              <img src="src/img/img-me-4.jpg" alt="내 사진" />
+              <img src="src/img/img-me-5.jpg" alt="내 사진" />
+              <img src="src/img/img-me-6.jpg" alt="내 사진" />
+            </div>
+            <button class="btn-next">▶</button>
+            <button class="btn-prev">◀</button>
+          </div>
+        </div>
+        <div class="info-about">
+          <dl class="txt-about">
+            <div>
+              <dt>이름</dt>
+              <dd>조유정</dd>
+            </div>
+            <div>
+              <dt>생년월일</dt>
+              <dd>01.09.30</dd>
+            </div>
+            <div>
+              <dt>소속</dt>
+              <dd>SSAFY 구미 4반</dd>
+            </div>
+            <div>
+              <dt>거주지</dt>
+              <dd>구미시 싸피 옆에</dd>
+            </div>
+            <div>
+              <dt>학교/전공</dt>
+              <dd>영남대학교/컴퓨터공학과</dd>
+            </div>
+          </dl>
+          <div class="btn-about">
+            <button class="btn-open" type="button">
+              <img src="src/img/icon-diary.png" alt="" />취미
+            </button>
+            <button class="btn-open" type="button">
+              <img src="src/img/icon-heart.png" alt="" />성격
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-project">
+      <a name="project"></a>
+      <h2>Project.</h2>
+      <article class="box-project">
+        <div>
+          <img class="img-project" src="src/img/project1.PNG" alt="첫번째 프로젝트 이미지" />
+          <button class="btn-detail" type="button"
+            onclick="location.href='https://github.com/Voice-Phishing-Detection-App/Server.git';">
+            자세히 보기
+          </button>
+        </div>
+        <div class="txt-project">
+          <h3>Pinocchio</h3>
+          <dl>
+            <dt>기간</dt>
+            <dd>2023.05-2023.11</dd>
+            <dt>설명</dt>
+            <dd>통화 내용에 대해서 자동으로 보이스피싱 탐지를 해주는 모바일 서비스입니다.</dd>
+            <dt>사용 기술</dt>
+            <dd>SpringBoot, Flask, H2, MySQL, KoBERT, Firebase, ffmpeg, AWS, Docker, GitHub Actions, JUnit5, Mockito
+            </dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="box-project">
+        <div>
+          <img class="img-project" src="src/img/project2.png" alt="두번째 프로젝트 이미지" />
+          <button class="btn-detail" type="button"
+            onclick="location.href='https://github.com/DREAMLANDTHON/HYUNGA.git';">
+            자세히 보기
+          </button>
+        </div>
+        <div class="txt-project">
+          <h3>VerbaBridge</h3>
+          <dl>
+            <dt>기간</dt>
+            <dd>2023.07</dd>
+            <dt>설명</dt>
+            <dd>다문화 가정 학부모를 위한 다국어 소통 모바입 서비스입니다.</dd>
+            <dt>사용 기술</dt>
+            <dd>Flutter, Firebase, OCR</dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="box-project">
+        <div>
+          <img class="img-project" src="src/img/project3.png" alt="세번째 프로젝트 이미지" />
+          <button class="btn-detail" type="button" onclick="location.href='https://zzanmoa.vercel.app/';">
+            자세히 보기
+          </button>
+        </div>
+        <div class="txt-project">
+          <h3>짠모아</h3>
+          <dl>
+            <dt>기간</dt>
+            <dd>2024.03-2024-06</dd>
+            <dt>설명</dt>
+            <dd>합리적인 소비를 위한 짠테크 플랫폼입니다.</dd>
+            <dt>사용 기술</dt>
+            <dd>SpringBoot, TypeScript, MySQL, AWS(EC2, Codedeploy, S3), GitHub Actions</dd>
+          </dl>
+        </div>
+      </article>
+    </section>
+
+    <footer id="footer">
+      <a name="contact"></a>
+      <div class="box-footer">
+        <h2>Contact.</h2>
+        <ul class="link-sns">
+          <li>
+            <a href="https://github.com/hiyoojeong" target="_blank"><img class="img-github"
+                src="src/img/icon-github.png" alt="깃허브 주소" />github</a>
+          </li>
+          <li>
+            <a href="https://velog.io/@hiyoojeong" target="_blank"><img class="img-velog" src="src/img/icon-velog.png"
+                alt="블로그 주소" />Blog</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/_you.xx_/" target="_blank"><img class="img-instagram"
+                src="src/img/icon-instagram.png" alt="인스타그램 주소" />instagram</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="modal-background">
+      <div class="modal">
+        <h3>취미</h3>
+        <h4>뮤지컬 보기</h4>
+        <img src="src/img/img-musical.jpg" alt="뮤지컬 이미지" />
+        <p>
+          취미는 뮤지컬 보는 거랍니다💞 무대에서 직접 보는 표정 연기와 미친 성량에 중독되어버렸어요😎
+          요즘 뮤지컬 티겟값이 너무 비싸서 슬픈 유정이에요...
+        </p>
+        <button type="button" class="btn-close">Close</button>
+      </div>
+    </div>
+    <div class="modal-background">
+      <div class="modal">
+        <h3>성격</h3>
+        <h4>긍정적이고 열정이 넘쳐요</h4>
+        <img src="src/img/img-ideneity.jpg" alt="책상 이미지" />
+        <p>
+          어떤 상황에서도 멋대로 긍정적으로 생각해버리곤 해요! 어차피 일어난 일, 좋게 생각하면 좋잖아요😊
+          생각보다 열정넘치는 편이라 이것저것 많이 시도해보고 많이 도전해봤어요🎀
+        </p>
+        <button type="button" class="btn-close">Close</button>
+      </div>
+    </div>
+    <button onclick="moveToTop()" class="btn-moveTop"></button>
+    <script src="index.js"></script>
+  </main>
+</body>
+
+</html>
