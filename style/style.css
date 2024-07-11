@@ -231,6 +231,58 @@ body::-webkit-scrollbar {
   margin: 10px auto;
 }
 
+/* thinking */
+.section-thinking {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 80px 0 140px 0;
+  margin: 0 0 140px 0;
+}
+.section-thinking h2 {
+  margin: 0 auto 100px;
+  display: inline-block;
+  font-family: "GmarketBold";
+  color: #6a75ca;
+  font-size: 40px;
+}
+.cont-thinking {
+  display: flex;
+  margin: 0 auto;
+}
+.txt-thinking {
+  display: flex;
+  flex-direction: column;
+}
+.txt-thinking div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.txt-thinking dt {
+  margin-right: 10px;
+}
+.txt-thinking img {
+  max-width: 50px;
+  height: auto;
+}
+.txt-thinking dd {
+  margin: 0;
+  font-size: 22px;
+}
+.txt-thinking span {
+  background: linear-gradient(to top, #FFE400 50%, transparent 50%)
+}
+.img-one,
+.img-two,
+.img-three,
+.img-four,
+.img-five {
+  width: 65px;
+  border-radius: 50%;
+}
+
 /* project섹션 */
 .section-project {
   display: flex;
